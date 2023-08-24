@@ -1,0 +1,10 @@
+{
+  "esversion": 6,
+  "node": true,
+  "boss": true,
+  "eqnull": true,
+  "debug": true,
+  "funcscope": true,
+  "evil": true,
+  "loopfunc": true
+}
