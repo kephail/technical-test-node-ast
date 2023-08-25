@@ -13,5 +13,8 @@ const input = fs.readFileSync("input.js", fileEncoding);
 // TODO replace this line with your own code
 const output = input;
 
+const ast = parseScript(input);
+console.log(ast); // Checking what parseScript returns
+
 // write to file (you don't need to modify this line)
 fs.writeFileSync("output.js", output, fileEncoding);
